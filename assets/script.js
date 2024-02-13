@@ -1,12 +1,37 @@
-var image = document.getElementById("g-skull");
-var toggleButton = document.getElementById("toggleButton");
+const image1 = document.getElementById("gs1");
+const image2 = document.getElementById("gd1");
+const image3 = document.getElementById("gs2");
+const image4 = document.getElementById("gd2");
+
+const toggleButton = document.getElementById("toggleButton");
 toggleButton.addEventListener("click", function() {
-  if (image.style.display === "none") {
-  image.style.display = "block";
-  } else {
-  image.style.display = "none";
-  }
+  
+  if (image1.style.display === "none") {
+    image1.style.display = "block";
+    } else {
+    image1.style.display = "none";
+    }
+
+  if (image2.style.display === "none") {
+    image2.style.display = "block";
+    } else {
+    image2.style.display = "none";
+    } 
+
+  if (image3.style.display === "none") {
+    image3.style.display = "block";
+    } else {
+    image3.style.display = "none";
+    }
+
+  if (image4.style.display === "none") {
+    image4.style.display = "block";
+    } else {
+    image4.style.display = "none";
+    }
   });
+  
+
 
 const topics = ['HTML', 'CSS', 'Git', 'JavaScript'];
 const randomTopic = topics[Math.floor(Math.random() * topics.length)];

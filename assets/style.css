@@ -46,11 +46,35 @@ p {
     margin: 40px auto;
     border: 5px solid rgb(32, 212, 236);
     box-shadow: 5px 10px #888888;
-    #g-skull{
+    #gs1{
         position: absolute;
         top: 195px;
         left: 335px;
         z-index: -1;
+    }
+    #gd1{
+        position: absolute;
+        top: 510px;
+        left: 335px;
+        z-index: -1;
+        height: 190px;
+        width: 320px;
+    }
+    #gs2{
+        position: absolute;
+        top: 770px;
+        left: 335px;
+        z-index: -1;
+        height: 215px;
+        width: 320px;
+    }
+    #gd2{
+        position: absolute;
+        top: 1050px;
+        left: 335px;
+        z-index: -1;
+        height: 200px;
+        width: 320px;
     }
   }
 
