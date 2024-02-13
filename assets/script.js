@@ -1,3 +1,13 @@
+var image = document.getElementById("g-skull");
+var toggleButton = document.getElementById("toggleButton");
+toggleButton.addEventListener("click", function() {
+  if (image.style.display === "none") {
+  image.style.display = "block";
+  } else {
+  image.style.display = "none";
+  }
+  });
+
 const topics = ['HTML', 'CSS', 'Git', 'JavaScript'];
 const randomTopic = topics[Math.floor(Math.random() * topics.length)];
 

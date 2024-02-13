@@ -26,7 +26,7 @@ h1,
 h2 {
     text-align: center;
 }
-img {
+#i-pete {
     display: block;
     height: 50px;
     width: 50px;
@@ -46,5 +46,11 @@ p {
     margin: 40px auto;
     border: 5px solid rgb(32, 212, 236);
     box-shadow: 5px 10px #888888;
+    #g-skull{
+        position: absolute;
+        top: 195px;
+        left: 335px;
+        z-index: -1;
+    }
   }
 
