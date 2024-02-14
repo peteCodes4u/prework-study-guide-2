@@ -26,9 +26,10 @@ The topics and general information data is rendered in a list on the web page. I
 - "easter egg content" is executed when the user clicks the 🤓 you've found an easter egg!🤓 button. By clicking this button the user will toggle to a tertiary HTML file that runs a DOS game, specifically DIGGER! (yay fun!) 
 
 ## Credits
-Peter Smith (peteCodes4u) and UCF bootcamp / edEx
-@caiiiycuk (js-dos)
-Mohamed Naser (Thanks for the ideas on how to build my wacky concept)
+- Peter Smith (peteCodes4u)
+- UCF bootcamp / edEx
+- @caiiiycuk (js-dos)
+- Mohamed Naser (Thanks for the ideas on how to build my wacky concept)
 
 ## License
 This project is covered by the standard MIT licence. This project can be used for educational and discussion purposes.
@@ -38,6 +39,6 @@ This project is covered by the standard MIT licence. This project can be used fo
 ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
 
 ## Features
-Listed information for HTML, CSS, JavaScript and GIT.
-Study Topic suggestion function (in DevTools)
-the following special features are included: "peteify", "restore", "hide gif's", "easter egg content"
+- Listed information for HTML, CSS, JavaScript and GIT.
+- Study Topic suggestion function (in DevTools)
+- the following special features are included: "peteify", "restore", "hide gif's", "easter egg content"
