@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+
+<img src="./assets/lofi-Chillp-PC_Crop.gif" alt="Lofi PC Chill Wave gif" id="lofi-PC" />  
+
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>js-dos api</title>
+<link rel="stylesheet" href="./assets/style-3.css">
+<style type="text/css">
+    
+.dosbox-container {
+    position:absolute;
+    top: 450px;
+    left: 220px;
+    z-index: 1;
+    width: 445px; 
+    height: 275px; }
+</style>
+</head>
+<body>
+   
+<div id="dosbox"></div>
+<br/>
+<button onclick="dosbox.requestFullScreen();">Make fullscreen</button>
+
+<script type="text/javascript" src="https://js-dos.com/cdn/js-dos-api.js"></script>
+<script type="text/javascript">
+var dosbox = new Dosbox({
+id: "dosbox",
+onload: function (dosbox) {
+dosbox.run("https://js-dos.com/cdn/digger.zip", "./DIGGER.COM");
+},
+onrun: function (dosbox, app) {
+console.log("App '" + app + "' is runned");
+}
+});
+
+</script>
+</body>
+</html>

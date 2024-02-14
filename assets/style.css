@@ -49,29 +49,32 @@ p {
     #gs1{
         position: absolute;
         top: 195px;
-        left: 335px;
+        left: 600px;
         z-index: -1;
+        height: 190px;
+        width: 320px;
     }
     #gd1{
         position: absolute;
-        top: 510px;
-        left: 335px;
+        top: 420px;
+        left: 600px;
         z-index: -1;
         height: 190px;
         width: 320px;
     }
     #gs2{
         position: absolute;
-        top: 770px;
-        left: 335px;
+        text-align: center;
+        top: 640px;
+        left: 600px;
         z-index: -1;
         height: 215px;
         width: 320px;
     }
     #gd2{
         position: absolute;
-        top: 1050px;
-        left: 335px;
+        top: 900px;
+        left: 600px;
         z-index: -1;
         height: 200px;
         width: 320px;
