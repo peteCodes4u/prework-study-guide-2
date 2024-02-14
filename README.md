@@ -27,6 +27,8 @@ The topics and general information data is rendered in a list on the web page. I
 
 ## Credits
 - Peter Smith (peteCodes4u)
+- Madeiranart (pete's art production company)
+- ToasterBathBomb (pete's band)
 - UCF bootcamp / edEx
 - @caiiiycuk (js-dos)
 - Mohamed Naser (Thanks for the ideas on how to build my wacky concept)
@@ -42,3 +44,4 @@ This project is covered by the standard MIT licence. This project can be used fo
 - Listed information for HTML, CSS, JavaScript and GIT.
 - Study Topic suggestion function (in DevTools)
 - the following special features are included: "peteify", "restore", "hide gif's", "easter egg content"
+- Embedded youtube video for listening pleasure, or displeasure (lol everyone has their own taste buds!)
