@@ -3,8 +3,8 @@ const image2 = document.getElementById("gd1");
 const image3 = document.getElementById("gs2");
 const image4 = document.getElementById("gd2");
 
-const toggleButton = document.getElementById("toggleButton");
-toggleButton.addEventListener("click", function() {
+const toggleButton3 = document.getElementById("toggleButton3");
+toggleButton3.addEventListener("click", function() {
   
   if (image1.style.display === "none") {
     image1.style.display = "block";
@@ -59,3 +59,8 @@ listTopics();
 console.log('Here are the topics we learned through Prework:');
 selectTopic();
 
+const togglebutton2 = document.getElementById("toggleButton2");
+togglebutton2.addEventListener("click", function() {window.location.href= "./index.html"});
+
+const togglebutton4 = document.getElementById("toggleButton4");
+togglebutton4.addEventListener("click", function() {window.location.href= "./PlayTheGameDigger!.html"});
