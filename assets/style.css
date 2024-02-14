@@ -26,6 +26,13 @@ h1,
 h2 {
     text-align: center;
 }
+.iframe{
+    position: absolute;
+    top: 300px;
+    margin: auto;
+    width: 50%;
+}
+
 #i-pete {
     display: block;
     height: 50px;
@@ -46,9 +53,10 @@ p {
     margin: 40px auto;
     border: 5px solid rgb(32, 212, 236);
     box-shadow: 5px 10px #888888;
+  
     #gs1{
         position: absolute;
-        top: 195px;
+        top: 430px;
         left: 600px;
         z-index: -1;
         height: 190px;
@@ -56,7 +64,7 @@ p {
     }
     #gd1{
         position: absolute;
-        top: 420px;
+        top: 670px;
         left: 600px;
         z-index: -1;
         height: 190px;
@@ -65,7 +73,7 @@ p {
     #gs2{
         position: absolute;
         text-align: center;
-        top: 640px;
+        top: 890px;
         left: 600px;
         z-index: -1;
         height: 215px;
@@ -73,7 +81,7 @@ p {
     }
     #gd2{
         position: absolute;
-        top: 900px;
+        top: 1120px;
         left: 600px;
         z-index: -1;
         height: 200px;
